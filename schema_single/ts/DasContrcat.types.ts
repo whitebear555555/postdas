@@ -4,6 +4,7 @@
 * and run the @cosmwasm/ts-codegen generate command to regenerate this file.
 */
 
+
 export type Duration = {
   height: number;
 } | {
