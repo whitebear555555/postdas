@@ -15,7 +15,7 @@ export default function Header() {
                         POSTHUMAN
                     </h1>
                     <Image
-                        src="/assets/icon.png"
+                        src="/icon.png"
                         className="Icon w-24 h-24 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-2 sm:mx-4 relative z-10"
                         alt="logo"
                         width={300}
