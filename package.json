@@ -3,17 +3,38 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@chain-registry/types": "^2.0.130",
+    "@cosmjs/cosmwasm-stargate": "^0.38.1",
+    "@cosmjs/stargate": "^0.38.1",
+    "@interchain-kit/core": "0.7.0",
+    "@interchain-kit/keplr-extension": "0.7.0",
+    "@interchain-kit/leap-extension": "0.7.0",
+    "@interchain-kit/phantom-extension": "^0.7.0",
+    "@interchain-kit/react": "0.7.1",
+    "@interchain-ui/react": "^1.26.3",
+    "@interchainjs/ethereum": "^1.19.1",
+    "@interchainjs/solana": "^1.19.1",
+    "@tanstack/react-query": "^5.90.16",
+    "axios": "^1.13.2",
+    "classnames": "^2.5.1",
+    "interchainjs": "^1.19.2",
+    "lucide-react": "^0.562.0",
     "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^10.1.0",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
+    "@cosmwasm/ts-codegen": "^1.14.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -22,5 +43,8 @@
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "libsodium-wrappers-sumo": "0.7.11"
   }
 }
